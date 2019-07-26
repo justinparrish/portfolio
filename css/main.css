@@ -27,7 +27,6 @@ h1 {
     font-size: 96px;
     position: absolute;
     line-height: 4.3em;    
-    
     color: #5855E2;
 }
 
@@ -36,6 +35,7 @@ h3 {
     position: absolute;
     line-height: 27em;
     color: rgb(160, 159, 189);
+    height: 0px;
 }
 
 .navbar ul li{
@@ -70,5 +70,4 @@ h3 {
 
 .navbar ul li a:hover {
     color: #5855E2;
-   
 }
