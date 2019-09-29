@@ -15,7 +15,7 @@ class App extends React.Component {
                 <a href="/">Contact Me</a>
               </Navigation>
             </Header>
-            <Drawer title="Extra">
+            <Drawer title="Extra ">
               <Navigation>
                 <a href="/">About</a>
                 <a href="/">Resume</a>
