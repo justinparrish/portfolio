@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://justinparrish.github.io/justinparrish.github.io",
+  "homepage": "https://justinparrish.github.io/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "lodash.template": "^4.5.0",
