@@ -12,18 +12,18 @@ class App extends React.Component {
           <Layout>
             <Header className='header-color' title="Justin's Portfolio" scroll>
               <Navigation>
-                <a href="/about">About</a>
-                <a href="/resume">Resume</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact Me</a>
+                <Link to="/about">About</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact Me</Link>
               </Navigation>
             </Header>
             <Drawer title="SideBar">
               <Navigation>
-                <a href="/about">About</a>
-                <a href="/resume">Resume</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact Me</a>
+                <Link to="/about">About</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact Me</Link>
               </Navigation>
             </Drawer>
             <Content>

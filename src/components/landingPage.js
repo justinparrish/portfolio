@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import { Link } from 'react-router-dom'
 
 export default class LandingPage extends Component {
     render() {
@@ -18,7 +19,7 @@ export default class LandingPage extends Component {
                                 React | Python | Django
                             </p>
                             <div className='social-links'>
-                                <a href='https://github.com/justinparrish' target='_blank'></a>
+                                <Link to='https://github.com/justinparrish' target='_blank'></Link>
 
                             </div>
                         </div>
