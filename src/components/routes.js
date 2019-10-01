@@ -11,10 +11,10 @@ const routes = () => (
     <Router>
         <Switch>
             <Route exact path='/'component={LandingPage} />
-            <Route path='/about' component={About} />
-            <Route path='/resume' component={Resume} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={ContactMe} />
+            <Route path='portfolio/about' component={About} />
+            <Route path='portfolio/resume' component={Resume} />
+            <Route path='portfolio/projects' component={Projects} />
+            <Route path='portfolio/contact' component={ContactMe} />
         </Switch>
     </Router>
 )
