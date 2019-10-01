@@ -11,7 +11,7 @@ class App extends React.Component {
         <div className="demo-big-content">
           <Layout>
             <Header className='header-color' title="Justin's Portfolio" scroll>
-              <Navigation>
+              <Navigation className='nav-text'>
                 <Link to="/about">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
