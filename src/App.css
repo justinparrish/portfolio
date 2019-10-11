@@ -66,3 +66,22 @@
 .layout {
   background: rgb(224, 227, 224);
 }
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  height: 100%;
+  width:100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 85%;
+  height: 80%;
+  background: white;
+  color: black;
+  border: 2px solid #0083B0;
+}

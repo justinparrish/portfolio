@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
+import { Grid, Cell } from 'react-mdl'
 
 export default class ContactMe extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Contact Me</h1>
+    render = () => (
+            <div className='contact-body'>
+                <Grid className='contact-grid'>
+                    <Cell col={6}>half page</Cell>
+                    <Cell col={6}>half page</Cell>
+                </Grid>
             </div>
         )
-    }
 }
