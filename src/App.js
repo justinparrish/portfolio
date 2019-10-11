@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="demo-big-content">
-          <Layout>
+          <Layout className='layout'>
             <Header className='header-color' title="Justin's Portfolio" scroll>
               <Navigation className='nav-text'>
                 <Link to="/about">About</Link>

@@ -9,32 +9,51 @@ export default class Projects extends Component {
     toggleCategories = () => {
         if (this.state.activeTab === 0) {
             return (
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '170px', background: 'url(images/save_chester.png) center / cover'}}>
-                        Save Chester!
+                <div className='front-end-projects'>
+                    <h1>Front End Projects</h1>
+                    <Card shadow={5} style={{ width: '500px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '250px', background: 'url(images/save_chester.png) center / cover' }}>
+                            Save Chester!
                     </CardTitle>
-                    <CardText>
-                        Created with HTML5/CSS3 and VanillaJs.
+                        <CardText>
+                            Created with HTML5/CSS3 and VanillaJs.
                     </CardText>
-                    <CardActions border style={{display: 'flex', justifyContent: 'space-around'}}>
-                        <Button colored href='https://github.com/justinparrish/project-one'>GitHub</Button>
-                        <Button colored href='https://justinparrish.github.io/project-one/'>Deployed App</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name='share'/>
-                    </CardMenu>
-                </Card>
+                        <CardActions border style={{ display: 'flex', justifyContent: 'space-around' }}>
+                            <Button colored href='https://github.com/justinparrish/project-one'>GitHub</Button>
+                            <Button colored href='https://justinparrish.github.io/project-one/'>Deployed App</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
                 <div>
-                    <h1>Back End Projects</h1>
+                    <h1>Full Stack Projects</h1>
+                    <Card shadow={5} style={{ width: '500px', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '270px', background: 'url(images/motorboard.png) center / cover' }}>
+                            MotorBoard
+                    </CardTitle>
+                        <CardText>
+                            Created with React and Django.(Frameworks used were AntDesign ,React-MDL)
+                    </CardText>
+                        <CardActions border style={{ display: 'flex', justifyContent: 'space-around' }}>
+                            <Button colored href='https://github.com/justinparrish/project-four'>GitHub</Button>
+                            <Button colored href='https://justinparrish.github.io/project-one/'>Deployed App</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                    </Card>
+
                 </div>
             )
         } else if (this.state.activeTab === 2) {
             return (
                 <div>
-                    <h1>Full Stack Projects</h1>
+                    <h1>Back End Projects</h1>
                 </div>
             )
         }
@@ -46,7 +65,6 @@ export default class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab}
                     onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>Front End</Tab>
-                    <Tab>Back End</Tab>
                     <Tab>Full Stack</Tab>
                 </Tabs>
                 <section className='project-grid'>
