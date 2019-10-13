@@ -26,6 +26,7 @@ export default class ContactMe extends Component {
                             <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
                                 <a href='tel:678-634-4384'>(678) 634-4384</a>
+                                
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
