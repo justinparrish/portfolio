@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
-import LandingPage from './landingPage'
+import LandingPage from './LandingPage'
 import About from './About'
 import Resume from './Resume'
 import Projects from './Projects'

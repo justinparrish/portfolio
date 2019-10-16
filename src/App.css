@@ -17,6 +17,17 @@
 
 }
 
+.contact-view-button {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: #27221F;
+}
+
+.contact-view-button h1 {
+  margin: 0;
+}
+
 .image-me {
   height: 250px;
   margin-top: 5em;
@@ -68,7 +79,6 @@
 
 .contact-body {
   margin: auto;
-  position: fixed;
   height: 100%;
   width:100%;
   justify-content: center;
@@ -79,7 +89,7 @@
   text-align: center;
   justify-content: center;
   width: 85%;
-  height: 80%;
+  height: 75%;
   background: white;
   color: black;
   border: 2px solid #0083B0;
