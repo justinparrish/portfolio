@@ -11,7 +11,7 @@ export default class LandingPage extends Component {
     }
 
     viewContactPage = () => {
-        let contact = !this.state.contact
+        const contact = !this.state.contact
         this.setState({contact})
     }
 
@@ -43,7 +43,7 @@ export default class LandingPage extends Component {
                 <div className='contact-view-button'>
                     <button onClick={this.viewContactPage} style={{background: '#27221F', color: 'white', border: 'none', width: '100%'}}><h1>Contact Me</h1></button>
                 </div>
-                { this.viewContactPage ? null : <Contact />}
+                { this.state.contact ? <Contact /> : null}
             </div>
         )
     }
