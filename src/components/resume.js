@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import Education from './Education'
+import Experince from './Experience'
 
 
 export default class Resume extends Component {
@@ -52,9 +53,20 @@ export default class Resume extends Component {
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                             and scrambled it to make a type specimen book. It has survived not only five centuries"
                         />
-                        <hr style={{borderTop: '3px solid #E22947'}} />
+                        <hr style={{borderTop: '3px solid #0083B0'}} />
                         
                         <h2>Experience</h2>
+                        <Experince 
+                            startYear='July 2019'
+                            endYear='October 2019'
+                            jobName='General Assembly'
+                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. It has survived not only five centuries"
+                        />
+                        <hr style={{ borderTop: '3px solid #0083B0', width: '50%' }} />
+
+                        <h2>Skills</h2>
 
                     </Cell>
                 </Grid>
