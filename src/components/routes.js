@@ -2,10 +2,10 @@ import React from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 import LandingPage from './landingPage'
-import About from './about'
-import Resume from './resume'
-import Projects from './projects'
-import ContactMe from './contact'
+import About from './About'
+import Resume from './Resume'
+import Projects from './Projects'
+import ContactMe from './Contact'
 
 const routes = () => (
     <Router>

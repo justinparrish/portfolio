@@ -20,9 +20,10 @@ export default class Resume extends Component {
                         <h2 style={{ paddingTop: '2em' }}>Justin Parrish</h2>
                         <h4 style={{ color: 'grey' }}>Software Engineer</h4>
                         <hr style={{ borderTop: '3px solid #0083B0', width: '50%' }} />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                        <p>As a software engineer, I have developed many stunning applications using technologies like Django,
+                             Express, React, and various other frameworks and libraries. With most of my work being Full Stack 
+                             applications, I have dealt with databases such as MongoDb and SQL. The few projects that aren’t 
+                             Full Stack, are written in Vanilla Js, jQuery, and limited Python.</p>
                         <hr style={{ borderTop: '3px solid #0083B0', width: '50%' }} />
                         <h5>Location</h5>
                         <p>Atlanta Metropolitan Area</p>
@@ -38,16 +39,16 @@ export default class Resume extends Component {
                         <h2>Education</h2>
 
                         <Education 
-                            startYear={2019}
-                            endYear={2019}
+                            startYear='July 2019'
+                            endYear='October 2019'
                             schoolName='General Assembly'
                             schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                             and scrambled it to make a type specimen book. It has survived not only five centuries"
                         />
                         <Education 
-                            startYear={2014}
-                            endYear={2018}
+                            startYear='August 2014'
+                            endYear='May 2018'
                             schoolName='Martin Luther King Jr. High School'
                             schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -98,7 +99,7 @@ export default class Resume extends Component {
                         />
                         <Skills 
                             skill='Python'
-                            progress={60}
+                            progress={40}
                         />
 
                     </Cell>

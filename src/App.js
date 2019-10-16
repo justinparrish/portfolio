@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import { Link } from 'react-router-dom'
-import Routes from './components/routes'
+import Routes from './components/Routes'
 
 class App extends React.Component {
   render() {
