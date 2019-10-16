@@ -32,7 +32,7 @@ export default class ContactMe extends Component {
                         <ListItem>
                             <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
-                                <a href='malito:justinparrish7@gmail.com' target='_top'>justinparrish7@gmail.com</a>
+                                <a href='mailto:justinparrish7@gmail.com' target='_top'>justinparrish7@gmail.com</a>
                             </ListItemContent>
                         </ListItem>
 
