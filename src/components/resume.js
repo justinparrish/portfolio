@@ -17,7 +17,7 @@ export default class Resume extends Component {
                         </div>
 
                         <h2 style={{ paddingTop: '2em' }}>Justin Parrish</h2>
-                        <h4 style={{ color: 'grey' }}>Programmer</h4>
+                        <h4 style={{ color: 'grey' }}>Software Engineer</h4>
                         <hr style={{ borderTop: '3px solid #0083B0', width: '50%' }} />
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -35,7 +35,7 @@ export default class Resume extends Component {
                     </Cell>
                     <Cell className='resume-right-col' col={8}>
                         <h2>Education</h2>
-                        
+
                         <Education />
 
                     </Cell>
