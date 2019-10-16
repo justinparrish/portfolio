@@ -36,7 +36,25 @@ export default class Resume extends Component {
                     <Cell className='resume-right-col' col={8}>
                         <h2>Education</h2>
 
-                        <Education />
+                        <Education 
+                            startYear={2019}
+                            endYear={2019}
+                            schoolName='General Assembly'
+                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. It has survived not only five centuries"
+                        />
+                        <Education 
+                            startYear={2014}
+                            endYear={2015}
+                            schoolName='Martin Luther King Jr. High School'
+                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. It has survived not only five centuries"
+                        />
+                        <hr style={{borderTop: '3px solid #E22947'}} />
+                        
+                        <h2>Experience</h2>
 
                     </Cell>
                 </Grid>
