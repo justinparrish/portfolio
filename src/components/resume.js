@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import Education from './Education'
 import Experince from './Experience'
+import Skills from './Skills'
 
 
 export default class Resume extends Component {
@@ -11,10 +12,9 @@ export default class Resume extends Component {
                 <Grid>
                     <Cell col={4}>
                         <div style={{ textAlign: 'center' }}>
-                            <img src='https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png'
-                                alt='avatar'
-                                style={{ height: '200px' }}
-                            />
+                            <div style={{height: '200px', color: '#0083B0'}}>
+                                <h1 style={{fontSize: '13em', border: '3px dotted'}}>JP</h1>
+                            </div>
                         </div>
 
                         <h2 style={{ paddingTop: '2em' }}>Justin Parrish</h2>
@@ -47,7 +47,7 @@ export default class Resume extends Component {
                         />
                         <Education 
                             startYear={2014}
-                            endYear={2015}
+                            endYear={2018}
                             schoolName='Martin Luther King Jr. High School'
                             schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -64,9 +64,42 @@ export default class Resume extends Component {
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                             and scrambled it to make a type specimen book. It has survived not only five centuries"
                         />
-                        <hr style={{ borderTop: '3px solid #0083B0', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #0083B0'}} />
 
                         <h2>Skills</h2>
+
+                        <Skills 
+                            skill='Javascript'
+                            progress={88}
+                        />
+                        <Skills 
+                            skill='HTML5'
+                            progress={75}
+                        />
+                        <Skills 
+                            skill='CSS3'
+                            progress={75}
+                        />
+                        <Skills 
+                            skill='ReactJs'
+                            progress={80}
+                        />
+                        <Skills 
+                            skill='ExpressJs'
+                            progress={60}
+                        />
+                        <Skills 
+                            skill='NodeJs'
+                            progress={60}
+                        />
+                        <Skills 
+                            skill='Django'
+                            progress={60}
+                        />
+                        <Skills 
+                            skill='Python'
+                            progress={60}
+                        />
 
                     </Cell>
                 </Grid>
