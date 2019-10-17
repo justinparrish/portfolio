@@ -35,6 +35,20 @@ export default class Projects extends Component {
                             github='https://github.com/justinparrish/project-four'
                             deployedApp='https://evening-anchorage-06845.herokuapp.com'
                             />
+                        <ProjectCard 
+                            image='/images/carrnd.png'
+                            title='CarRnD'
+                            text='Created with the MEHN Stack and plain CSS3.'
+                            github='https://github.com/justinparrish/project-two-carrnd'
+                            deployedApp='https://carrnd-rentacar.herokuapp.com/user'
+                            />
+                        <ProjectCard 
+                            image='/images/toj.png'
+                            title='The Online Journal'
+                            text='Created with the MERN Stack.(Frameworks used were AntDesign)'
+                            github='https://github.com/justinparrish/project-three-journals'
+                            deployedApp='https://morning-falls-93398.herokuapp.com/'
+                            />
                     </div>
                 </div>
             )

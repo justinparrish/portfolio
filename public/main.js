@@ -1,1 +1,3 @@
-let card = document.querySelector('.card')
+let cardImage = document.querySelector('.card-title')
+
+
