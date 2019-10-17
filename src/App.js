@@ -12,14 +12,12 @@ class App extends React.Component {
           <Layout className='layout'>
             <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Justin's Portfolio</Link>} scroll>
               <Navigation className='nav-text'>
-                <Link to="/about">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
               </Navigation>
             </Header>
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>Justin's Portfolio</Link>}>
               <Navigation>
-                <Link to="/about">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
               </Navigation>

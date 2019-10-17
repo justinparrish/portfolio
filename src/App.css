@@ -50,6 +50,12 @@
   font-weight: bold;
 }
 
+.about-me {
+  color: #b8d8f0;
+  font-size: 66px;
+  font-weight: 500;
+}
+
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
@@ -73,6 +79,7 @@
   font-size: 5em;
   padding: 8px
 }
+
 
 .layout {
   background: rgb(224, 227, 224);
@@ -141,4 +148,13 @@
 .mdl-card__title-text {
   background: rgba(0,0,0,.5);
   border-radius: 5px;
+}
+
+@media (max-width: 839px) and (min-width: 480px) {
+  .banner {
+    margin-left: 18em;
+  }
+  .about-me {
+    margin-left: 9pc
+  }
 }

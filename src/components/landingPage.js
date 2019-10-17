@@ -7,19 +7,19 @@ import Contact from './Contact';
 
 export default class LandingPage extends Component {
     state = {
-        contact : false
+        contact: false
     }
 
     viewContactPage = () => {
         const contact = !this.state.contact
-        this.setState({contact})
+        this.setState({ contact })
     }
 
     render() {
         return (
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
-                    <Cell col={12}>
+                    <Cell col={7}>
                         <img src='https://i.imgur.com/foV3DFT.jpg' className='image-me' />
 
                         <div className='banner-text'>
@@ -39,11 +39,24 @@ export default class LandingPage extends Component {
                             </div>
                         </div>
                     </Cell>
+                    <Cell col={4}>
+                        <div className='about-banner' style={{marginTop: '200px'}}>
+                        <h1 className='about-me'>About Me</h1>
+                        <div className='banner-text banner'>
+                            <h1 style={{fontSize: '50px'}}>Justin Parrish</h1>
+                            <hr />
+                            <p>Hello welcome to my porfolio! My name is Justin Parrish.
+                                I am a young software engineer that is beginning an fun and
+                                ambitious journey to success. 
+                            </p>
+                        </div>
+                        </div>
+                    </Cell>
                 </Grid>
                 <div className='contact-view-button'>
-                    <button onClick={this.viewContactPage} style={{background: '#27221F', color: 'white', border: 'none', width: '100%'}}><h1>Contact Me</h1></button>
+                    <button onClick={this.viewContactPage} style={{ background: '#27221F', color: 'white', border: 'none', width: '100%' }}><h1>Contact Me</h1></button>
                 </div>
-                { this.state.contact ? <Contact /> : null}
+                {this.state.contact ? <Contact /> : null}
             </div>
         )
     }
