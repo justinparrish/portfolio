@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl'
+import { Tabs, Tab, Grid, Cell } from 'react-mdl'
 import ProjectCard from './ProjectCard'
 
 export default class Projects extends Component {
@@ -10,46 +10,35 @@ export default class Projects extends Component {
     toggleCategories = () => {
         if (this.state.activeTab === 0) {
             return (
-                <div className='front-end-projects cards'>
+                <div>
                     <h1>Front End Projects</h1>
-                    <Card shadow={5} style={{ width: '500px', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '250px', background: 'url(images/save_chester.png) center / cover' }}>
-                            Save Chester!
-                    </CardTitle>
-                        <CardText>
-                            Created with HTML5/CSS3 and VanillaJs.
-                    </CardText>
-                        <CardActions border style={{ display: 'flex', justifyContent: 'space-around' }}>
-                            <Button colored href='https://github.com/justinparrish/project-one'>GitHub</Button>
-                            <Button colored href='https://justinparrish.github.io/project-one/'>Deployed App</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name='share' />
-                        </CardMenu>
-                    </Card>
+                    <div className='front-end-projects cards'>
+                        <ProjectCard 
+                            image='images/save_chester.png'
+                            title='Save Chester!'
+                            text='Created with HTML5/CSS3 and VanillaJs.'
+                            github='https://github.com/justinparrish/project-one'
+                            deployedApp='https://justinparrish.github.io/project-one/'
+                            />
+                        <ProjectCard />
+                        <ProjectCard />
+                    </div>
                 </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div className='full-stack-projects cards'>
+                <div>
                     <h1>Full Stack Projects</h1>
-                    <Card shadow={5} style={{ width: '500px', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '270px', background: 'url(images/motorboard.png) center / cover' }}>
-                            MotorBoard
-                    </CardTitle>
-                        <CardText>
-                            Created with React and Django.(Frameworks used were AntDesign ,React-MDL)
-                    </CardText>
-                        <CardActions border style={{ display: 'flex', justifyContent: 'space-around' }}>
-                            <Button colored href='https://github.com/justinparrish/project-four'>GitHub</Button>
-                            <Button colored href='https://justinparrish.github.io/project-one/'>Deployed App</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name='share' />
-                        </CardMenu>
-                    </Card>
-                    <ProjectCard />
+                    <div className='full-stack-projects cards'>
+                        <ProjectCard 
+                            image='images/motorboard.png'
+                            title='MotorBoard'
+                            text='Created with React and Django.(Frameworks used were AntDesign ,React-MDL)'
+                            github='https://github.com/justinparrish/project-four'
+                            deployedApp='https://evening-anchorage-06845.herokuapp.com'
+                            />
 
+                    </div>
                 </div>
             )
         } else if (this.state.activeTab === 2) {
