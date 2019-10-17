@@ -1,3 +1,4 @@
+/* Layout & Landing Page */
 .header-color {
   background: #00B4DB;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
@@ -76,7 +77,9 @@
 .layout {
   background: rgb(224, 227, 224);
 }
+/* ------- END -------- */
 
+/* --------Contact Page ---------- */
 .contact-body {
   margin: auto;
   height: 100%;
@@ -116,9 +119,13 @@
   font-size: 66px;
   padding-right: 5rem;
 }
+/* ------ END ------- */
 
+/* ------ Resume --------- */
 .resume-right-col {
   background: #27221F;
   color: white;
   padding: 2em;
 }
+/* ------ END ------- */
+
