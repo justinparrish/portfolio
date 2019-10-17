@@ -20,6 +20,13 @@ export default class Projects extends Component {
                             github='https://github.com/justinparrish/project-one'
                             deployedApp='https://justinparrish.github.io/project-one/'
                             />
+                        <ProjectCard 
+                            image='images/bmi-calculator.png'
+                            title='BMI-Calculator'
+                            text='Created with ReactJs'
+                            github='https://github.com/justinparrish/BMI-Calculator'
+                            deployedApp='https://calm-journey-09555.herokuapp.com/'
+                            />
                     </div>
                 </div>
             )
@@ -45,7 +52,7 @@ export default class Projects extends Component {
                         <ProjectCard 
                             image='/images/toj.png'
                             title='The Online Journal'
-                            text='Created with the MERN Stack.(Frameworks used were AntDesign)'
+                            text='Created with the MERN Stack. Intended for a single user.(Frameworks used were AntDesign)'
                             github='https://github.com/justinparrish/project-three-journals'
                             deployedApp='https://morning-falls-93398.herokuapp.com/'
                             />

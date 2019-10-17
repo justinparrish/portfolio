@@ -5,7 +5,7 @@ export default class ProjectCard extends Component {
 
     render = () => (
         <Card shadow={5} style={{ width: '500px', margin: 'auto', marginBottom: '50px' }} className='card'>
-        <CardTitle className='card-title' style={{ color: '#fff', height: '270px', background: `url(${this.props.image})` }}>
+        <CardTitle className='card-title' style={{ color: '#fff', height: '270px', background: `url(${this.props.image})`, backgroundRepeat: 'no-repeat' }}>
             {this.props.title}
     </CardTitle>
         <CardText>
