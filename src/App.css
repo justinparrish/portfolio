@@ -137,3 +137,8 @@
 .card {
   margin: 10px;
 }
+
+.mdl-card__title-text {
+  background: rgba(0,0,0,.5);
+  border-radius: 5px;
+}

@@ -20,8 +20,6 @@ export default class Projects extends Component {
                             github='https://github.com/justinparrish/project-one'
                             deployedApp='https://justinparrish.github.io/project-one/'
                             />
-                        <ProjectCard />
-                        <ProjectCard />
                     </div>
                 </div>
             )
@@ -37,14 +35,7 @@ export default class Projects extends Component {
                             github='https://github.com/justinparrish/project-four'
                             deployedApp='https://evening-anchorage-06845.herokuapp.com'
                             />
-
                     </div>
-                </div>
-            )
-        } else if (this.state.activeTab === 2) {
-            return (
-                <div>
-                    <h1>Back End Projects</h1>
                 </div>
             )
         }
