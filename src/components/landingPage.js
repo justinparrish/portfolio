@@ -33,6 +33,9 @@ export default class LandingPage extends Component {
                                 <a href='https://github.com/justinparrish' target='_blank'>
                                     <i class="fa fa-github-square" aria-hidden="true" />
                                 </a>
+                                <a href='https://www.slideshare.net/slideshow/embed_code/key/32cmI7SzbfKxY' target='_blank'>
+                                    <i className="fa fa-file-text" aria-hidden="true" />
+                                </a>
                                 <a href='https://www.linkedin.com/in/justin-parrish-b42057188/' target='_blank'>
                                     <i className='fa fa-linkedin-square' aria-hidden='true' />
                                 </a>
