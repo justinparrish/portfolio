@@ -55,7 +55,7 @@ export default class Resume extends Component {
                             schoolDescription="As a high school alumni, I was taught the basics of life from schooling
                             and decision making. There were multiple career paths to choose from, so I was placed into
                             a software engineer's path, in which I chose. Along side of my career path I was placed in
-                            AP courses graduating with a 3.1 GPA."
+                            AP courses graduating with a 3.14 GPA."
                         />
                         <hr style={{borderTop: '3px solid #0083B0'}} />
                         
@@ -76,35 +76,35 @@ export default class Resume extends Component {
 
                         <Skills 
                             skill='Javascript'
-                            progress={88}
-                        />
-                        <Skills 
-                            skill='HTML5'
-                            progress={75}
-                        />
-                        <Skills 
-                            skill='CSS3'
-                            progress={75}
+                            progress={90}
                         />
                         <Skills 
                             skill='ReactJs'
+                            progress={90}
+                        />
+                        <Skills 
+                            skill='Django'
+                            progress={80}
+                        />
+                        <Skills 
+                            skill='Python'
+                            progress={80}
+                        />
+                        <Skills 
+                            skill='HTML5'
+                            progress={80}
+                        />
+                        <Skills 
+                            skill='CSS3'
                             progress={80}
                         />
                         <Skills 
                             skill='ExpressJs'
-                            progress={60}
+                            progress={80}
                         />
                         <Skills 
                             skill='NodeJs'
-                            progress={60}
-                        />
-                        <Skills 
-                            skill='Django'
-                            progress={60}
-                        />
-                        <Skills 
-                            skill='Python'
-                            progress={40}
+                            progress={80}
                         />
 
                     </Cell>

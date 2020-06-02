@@ -38,7 +38,7 @@ export default class Projects extends Component {
                         <ProjectCard 
                             image='images/motorboard.png'
                             title='MotorBoard'
-                            text='Created with React and Django.(Frameworks used were AntDesign ,React-MDL)'
+                            text='Created with React and Django.(Frameworks used: AntDesign ,React-MDL)'
                             github='https://github.com/justinparrish/project-four'
                             deployedApp='https://evening-anchorage-06845.herokuapp.com'
                             />
@@ -52,9 +52,16 @@ export default class Projects extends Component {
                         <ProjectCard 
                             image='images/toj.png'
                             title='The Online Journal'
-                            text='Created with the MERN Stack. Intended for a single user.(Frameworks used were AntDesign)'
+                            text='Created with the MERN Stack. Intended for a single user.(Framework used: AntDesign)'
                             github='https://github.com/justinparrish/project-three-journals'
                             deployedApp='https://morning-falls-93398.herokuapp.com/'
+                            />
+                        <ProjectCard 
+                            image='images/cdis.png'
+                            title='CDIS Documentation Helper'
+                            text='Created with React and Django. Intended for use of CDIS employees of various hospitals.(Frameworks used: Semantic UI React )'
+                            github='https://github.com/justinparrish/CDIS-App'
+                            deployedApp='https://cdis-dh.herokuapp.com/'
                             />
                     </div>
                 </div>
